@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package format="2">
+  <name>competition</name>
+  <version>0.0.1</version>
+  <description>
+    line follower competition template
+  </description>
+  <author>Can Altineller</author>
+  <maintainer email="altineller@gmail.com">Can Altineller</maintainer>
+  <url type="website">https://gitlab.com/ROSRider</url>
+  <url type="repository">https://gitlab.com/ROSRider</url>
+  <license>GPLv3</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf</depend>
+  <depend>message_generation</depend>
+</package>
