@@ -37,7 +37,7 @@ class LineFollower:
         rospy.wait_for_message('/simulation_metrics', String)
 
         # grace period, do not remove
-        time.sleep()
+        time.sleep(0.)
         self.started = True
 
     def main(self):
