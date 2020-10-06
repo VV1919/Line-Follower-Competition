@@ -66,7 +66,7 @@ class LineFollower:
                     max_brightness = brightness
                     max_brightness_index = i
             delta_index = image.width/2 - max_brightness_index
-            print("Hey this is delta index:" + strdelta_index)
+            print("Hey this is delta index:" + str(delta_index)
             self.robot.rotate(delta_index * 0.2)
 
         # rospy.spin has finished waiting, program is shutdown, so send stop to robot.
