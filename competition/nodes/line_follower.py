@@ -68,6 +68,7 @@ class LineFollower:
             delta_index = image.width/2 - max_brightness_index
             print("Hey this is delta index:" + str(delta_index))
             self.robot.rotate(delta_index * 0.2)
+        # ENTER YOUR STEERING CODE HERE
         
         # rospy.spin has finished waiting, program is shutdown, so send stop to robot.
         self.robot.stop()
