@@ -56,7 +56,7 @@ class LineFollower:
 
             # ENTER YOUR LINE DETECTING CODE HERE
             # find the center
-            if a < 10
+            if a < 10:
             self.robot.move(0.95)
 
        
