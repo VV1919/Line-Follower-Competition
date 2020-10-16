@@ -35,7 +35,7 @@ class LineFollower:
         self.last_rotation = -1
         self.rot_values = numpy.linspace(rot_min_max,-rot_min_max,32)
         vel_max = 1.0
-        vel_min = 0.73
+        vel_min = 0.735
         self.vel_values = numpy.append(numpy.linspace(vel_min,vel_max,16),numpy.linspace(vel_max,vel_min,16))
 
         # wait for evaluator, do not remove
