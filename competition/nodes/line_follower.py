@@ -82,7 +82,7 @@ class LineFollower:
                 self.robot.rotate(0.5)
                 print("turn left")
             elif(avg_index_value > (self.sensor_array_len/2)):
-                self.robot.rotate(-0.2)
+                self.robot.rotate(-0.5)
                 print("turn right")
             else:
                 self.robot.move(2.0)
