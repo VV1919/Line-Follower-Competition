@@ -63,7 +63,7 @@ class LineFollower:
 
             # ENTER YOUR LINE DETECTING CODE HERE
             for i in range(len(self.sensor_row)):
-                print(1)
+                print(i)
 
 
             # ENTER YOUR STEERING CODE HERE
