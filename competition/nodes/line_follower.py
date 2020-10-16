@@ -64,7 +64,7 @@ class LineFollower:
             # ENTER YOUR LINE DETECTING CODE HERE
             for i in range(len(self.sensor_row)):
                 if(self.sensor_row[i] >=236):
-                    if
+                    if()
 
 
             # ENTER YOUR STEERING CODE HERE
