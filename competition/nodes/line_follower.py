@@ -66,7 +66,7 @@ class LineFollower:
             self.sensor_array_len = len(self.sensor_row)
             print(self.sensor_row)
             avg_index_value = 0
-            num
+            num_
             for i in range(self.sensor_array_len):
                 if(self.sensor_row[i] > 0):
                     self.avg_index_value+=i
