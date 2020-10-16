@@ -86,7 +86,7 @@ class LineFollower:
             # ENTER YOUR STEERING CODE HERE
             self.robot.rotate(self.rot_values[avg_index_value])
             self.robot.move(self.vel_values[avg_index_value])
-            if
+            if()
 
         # rospy.spin has finished waiting, program is shutdown, so send stop to robot.
         self.robot.stop()
