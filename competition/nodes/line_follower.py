@@ -86,8 +86,8 @@ class LineFollower:
             # if(avg_index_value == 15 or avg_index_value==16):
             #     self.robot.move(1.0)
             # else:
-                self.robot.rotate(self.rot_values[avg_index_value])
-                self.robot.move(self.vel_values[avg_index_value])
+            self.robot.rotate(self.rot_values[avg_index_value])
+            self.robot.move(self.vel_values[avg_index_value])
             print(self.robot.x," ",self.robot.y)
         # rospy.spin has finished waiting, program is shutdown, so send stop to robot.
         self.robot.stop()
