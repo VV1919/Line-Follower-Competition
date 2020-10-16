@@ -68,7 +68,7 @@ class LineFollower:
             line_value_array
             for i in range(self.sensor_array_len):
                 if(self.sensor_row[i] > 0):
-                    ine_value_array.append(self.sensor_row[i])
+                    line_value_array.append(self.sensor_row[i])
 
             for i in range(self.sensor_array_len):
                 if(self.sensor_row[i] >= 190):
