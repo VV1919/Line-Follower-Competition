@@ -65,7 +65,7 @@ class LineFollower:
             # ENTER YOUR LINE DETECTING CODE HERE
             for i in range(self.sensor_array_len):
                 if(self.sensor_row[i] >=236):
-                    if(i<=self.sensor_array_len):
+                    if(i<= self.sensor_array_len):
                         self.robot.rotate()
 
 
