@@ -68,7 +68,7 @@ class LineFollower:
             
             for i in range(self.sensor_array_len):
                 if(self.sensor_row[i] >= 236):
-                    print("INDEX: "+str(i)
+                    print("INDEX: "+str(i))
                     if(i < (self.sensor_array_len/2) - 1):
                         self.robot.rotate(0.2)
                         print("turn left")
