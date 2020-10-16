@@ -85,7 +85,7 @@ class LineFollower:
                 self.robot.rotate(-0.2)
                 print("turn right")
             else:
-                self.robot.move(0.0)
+                self.robot.move(1.0)
                 print("move forward")
             self.robot.move(0.1)
 
