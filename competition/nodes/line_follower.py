@@ -61,7 +61,7 @@ class LineFollower:
                 brightness = (0.2126 * ord(image.data[i * 3])) + (0.7152 * ord(image.data[i * 3 + 1])) + (0.0722 * ord(image.data[i * 3 + 2]))
                 self.sensor_row.append(brightness)
 
-            
+            le
             # ENTER YOUR LINE DETECTING CODE HERE
             for i in range(len(self.sensor_row)):
                 if(self.sensor_row[i] >=236):
