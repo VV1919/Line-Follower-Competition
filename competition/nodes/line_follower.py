@@ -90,7 +90,7 @@ class LineFollower:
             else:
                 self.robot.move(10.0)
                 print("move forward")
-            self.robot.move(0.0)
+            self.robot.move(10.0)
             time.sleep(0.10)
 
         # rospy.spin has finished waiting, program is shutdown, so send stop to robot.
