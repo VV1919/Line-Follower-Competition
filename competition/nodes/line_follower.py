@@ -71,7 +71,7 @@ class LineFollower:
                 if(self.sensor_row[i] > 0):
                     avg_index_value+=i
                     num_of_index_values+=1
-            
+            if
             avg_index_value = avg_index_value/num_of_index_values
 
             # ENTER YOUR STEERING CODE HERE
