@@ -62,7 +62,7 @@ class LineFollower:
                 self.sensor_row.append(brightness)
 
             self.sensor_array_len = len(self.sensor_row)
-            print
+            print()
             # ENTER YOUR LINE DETECTING CODE HERE
             for i in range(self.sensor_array_len):
                 if(self.sensor_row[i] >= 236):
