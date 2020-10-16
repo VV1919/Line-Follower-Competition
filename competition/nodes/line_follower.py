@@ -67,7 +67,7 @@ class LineFollower:
                 if(self.sensor_row[i] >= 236):
                     if(i <= self.sensor_array_len):
                         self.robot.rotate(0.1)
-                    elif
+                    elif()
 
 
             # ENTER YOUR STEERING CODE HERE
