@@ -67,7 +67,7 @@ class LineFollower:
             print(self.sensor_row)
 
             for i in range(self.sensor_array_len):
-                if(self.sensor_row[i] > ):
+                if(self.sensor_row[i] > 0):
             
             for i in range(self.sensor_array_len):
                 if(self.sensor_row[i] >= 190):
