@@ -81,7 +81,7 @@ class LineFollower:
 
             print(avg_index_value)
             # ENTER YOUR STEERING CODE HERE
-            if(avg_index_value == int(self.sensor_array_len/2) - 1 or avg_index_value == int(self.sensor_array_len/2)):
+            if(avg_index_value == int(self.sensor_array_len/2) - 1 or avg_index_value == int((self.sensor_array_len/2)):
                 self.robot.rotate(self.rot_values[avg_index_value])
                 print("turn left")
             elif(avg_index_value > (self.sensor_array_len/2)):
