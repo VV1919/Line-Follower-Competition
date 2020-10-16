@@ -77,7 +77,7 @@ class LineFollower:
             else:
                 avg_index_value = avg_index_value/num_of_index_values
 
-            rotnumpy.linspace()
+            rot_numpy.linspace()
 
             # ENTER YOUR STEERING CODE HERE
             if(avg_index_value < (self.sensor_array_len/2) - 1):
