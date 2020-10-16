@@ -62,7 +62,7 @@ class LineFollower:
                 self.sensor_row.append(brightness)
 
             # ENTER YOUR LINE DETECTING CODE HERE
-            for b in self.sen
+            for b in self.sensor_row:
 
 
             # ENTER YOUR STEERING CODE HERE
