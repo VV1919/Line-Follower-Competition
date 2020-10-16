@@ -35,7 +35,7 @@ class LineFollower:
         vel_min_max = 2.5
         self.last_rotation = -1
         self.rot_values = numpy.linspace(rot_min_max,-rot_min_max,32)
-        self.vel_values = numpy.linspace(vel_min_max,-rot_vel_min_max,32)
+        self.vel_values = numpy.linspace(vel_min_max,-vel_min_max,32)
 
         # wait for evaluator, do not remove
         rospy.wait_for_message('/simulation_metrics', String)
