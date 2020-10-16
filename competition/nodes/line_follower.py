@@ -76,7 +76,7 @@ class LineFollower:
             if(num_of_index_values == 0):
                 avg_index_value = 0
             else:
-                avg_index_value = int(round(avg_index_value/num_of_index_values)
+                avg_index_value = int(round(avg_index_value/num_of_index_values))
 
             print(avg_index_value)
             # ENTER YOUR STEERING CODE HERE
