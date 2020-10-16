@@ -32,7 +32,7 @@ class LineFollower:
 
         # ENTER YOUR INITIALIZATION HERE
         self.last_rotation = -1
-        self.rot_values = numpy.linspace(3,-1.5,32)
+        self.rot_values = numpy.linspace(3,-3,32)
 
         # wait for evaluator, do not remove
         rospy.wait_for_message('/simulation_metrics', String)
