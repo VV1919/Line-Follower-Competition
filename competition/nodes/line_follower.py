@@ -70,7 +70,7 @@ class LineFollower:
                 if(self.sensor_row[i] > 0):
                     self.avg_index_value+=i
 
-            avg_index_value = avg_index_value/8
+            avg_index_value = avg_index_value/
 
             for i in range(self.sensor_array_len):
                 if(self.sensor_row[i] >= 190):
