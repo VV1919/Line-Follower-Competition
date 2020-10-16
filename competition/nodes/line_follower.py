@@ -66,7 +66,7 @@ class LineFollower:
             for i in range(self.sensor_array_len):
                 if(self.sensor_row[i] >=236):
                     if(i<=sensor_array_len):
-                        self.robot.
+                        self.robot.ro
 
 
             # ENTER YOUR STEERING CODE HERE
