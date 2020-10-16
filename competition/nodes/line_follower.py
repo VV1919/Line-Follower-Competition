@@ -65,7 +65,7 @@ class LineFollower:
             # ENTER YOUR LINE DETECTING CODE HERE
             self.sensor_array_len = len(self.sensor_row)
             print(self.sensor_row)
-            p
+            
             for i in range(self.sensor_array_len):
                 if(self.sensor_row[i] >= 236):
                     print("INDEX: "+i)
