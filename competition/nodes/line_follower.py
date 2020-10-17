@@ -76,7 +76,7 @@ class LineFollower:
             error = index - (image.width / 2)
             
             # ENTER YOUR STEERING CODE HERE
-            if self.sensor_row[0]
+            if self.sensor_row[in]
             self.robot.rotate(self.rot_values[index])
             self.robot.move(self.vel_values[index])
 
