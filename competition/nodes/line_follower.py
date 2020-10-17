@@ -85,7 +85,7 @@ class LineFollower:
                 if self.sensor_row[i] > max:
                     max = self.sensor_row[i]
                     index = i
-            print()
+            print(index)
             # ENTER YOUR STEERING CODE HERE
             self.robot.rotate(self.rot_values[index])
             self.robot.move(0)
