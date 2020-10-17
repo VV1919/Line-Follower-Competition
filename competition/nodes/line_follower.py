@@ -38,7 +38,7 @@ class LineFollower:
         vel_max = 1.02
         vel_min = 0.75
         # self.vel_values = numpy.append(numpy.linspace(vel_min,vel_max,16),numpy.linspace(vel_max,vel_min,16))
-        self.normal_distribution(vel_min,32)
+        self.normal_distribution(vel_min,array_size)
         # wait for evaluator, do not remove
         rospy.wait_for_message('/simulation_metrics', String)
 
