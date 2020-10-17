@@ -32,7 +32,7 @@ class LineFollower:
 
         # ENTER YOUR INITIALIZATION HERE
         self.prev_rot = 1
-        #done 8.4
+
         rot_min_max = 2.47
         array_size=32
         self.rot_values = numpy.linspace(rot_min_max,-rot_min_max,array_size)
