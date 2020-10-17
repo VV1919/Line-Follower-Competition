@@ -89,7 +89,7 @@ class LineFollower:
             error = index - (image.width / 2)
             
             # ENTER YOUR STEERING CODE HERE
-            if error > 2 or error < -3:
+            if error > 1 or error < -3:
                 self.robot.move(0.7)
             self.robot.rotate(self.rot_values[index])
             self.robot.move(self.vel_values[index])
