@@ -97,7 +97,31 @@ class LineFollower:
             # print(self.robot.x)
             # print(self.robot.y)
             # print("\n")
-            
+            # ENTER YOUR LINE DETECTING CODE HERE
+            # find the center
+            max = self.sensor_row[0]
+            index = 0
+            for i in range(0, len(self.sensor_row)):
+                if self.sensor_row[i] > max:
+                    max = self.sensor_row[i]
+                    index = i
+
+            # ENTER YOUR STEERING CODE HERE
+            # calculate a deviation from line
+            error = index - (image.width / 2)
+
+            if error > 2 or error < -2:
+                self.robot.rotate(0.2*self.last_rotation)
+                self.robot.move(0.25)
+            else:
+                self.robot.move(0.25)
+                pass
+
+            self.robot.rotate(-error*0.2)
+            if error < 0:
+                self.last_rotation = 1
+            else:
+                self.last_rotation = -1
         # rospy.spin has finished waiting, program is shutdown, so send stop to robot.
         self.robot.stop()
 
