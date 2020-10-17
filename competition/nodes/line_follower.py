@@ -80,7 +80,7 @@ class LineFollower:
 
             self.robot.rotate(self.rot_values[index])
             self.robot.move(self.vel_values[index])
-            if err
+            if error
 
         # rospy.spin has finished waiting, program is shutdown, so send stop to robot.
         self.robot.stop()
