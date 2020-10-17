@@ -81,7 +81,7 @@ class LineFollower:
 
                 self.robot.rotate(-self.rot_values[index])
                 self.robot.move(self.vel_values[index])
-                elf.prev_rot == 1
+                elf.prev_rot = 1
             else:
                 self.robot.rotate(self.rot_values[index])
                 self.robot.move(self.vel_values[index])
