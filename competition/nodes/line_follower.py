@@ -31,8 +31,8 @@ class LineFollower:
         # self.robot.x, self.robot.y, self.robot.yaw, self.robot.vel_x, and self.robot.vel_z
 
         # ENTER YOUR INITIALIZATION HERE
-        rot_min_max = 2.0
         self.last_rotation = -1
+        rot_min_max = 2.0
         self.rot_values = numpy.linspace(rot_min_max,-rot_min_max,32)
         vel_max = 1.0
         vel_min = 0.74
@@ -66,7 +66,6 @@ class LineFollower:
                 brightness = (0.2126 * ord(image.data[i * 3])) + (0.7152 * ord(image.data[i * 3 + 1])) + (0.0722 * ord(image.data[i * 3 + 2]))
                 self.sensor_row.append(brightness)
 
-            
             # ENTER YOUR LINE DETECTING CODE HERE
             self.sensor_array_len = len(self.sensor_row)
             avg_index_value = 0
