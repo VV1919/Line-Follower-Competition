@@ -48,7 +48,7 @@ class LineFollower:
 
         self.a = 0
 
-    def normal_distribution(self,vel_min,):
+    def normal_distribution(self,vel_min,sa):
         sigma = 1
         mu = 15.5
         y_shift = vel_min
