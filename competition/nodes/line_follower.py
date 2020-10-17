@@ -54,7 +54,7 @@ class LineFollower:
         y=[]
         y_shift = 0.75
         sample_number = 32
-        X = numpy.linspace(0,31,32)
+        X = numpy.linspace(0,sample_number,sample_number)
         for x in range(0,sample_number):
             a=y_shift+(1/(sigma*math.sqrt(2*math.pi)))*math.exp(-(x-mu)**2/(2*sigma**2))
             y.append(a)
