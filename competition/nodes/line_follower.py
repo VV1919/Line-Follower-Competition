@@ -50,7 +50,7 @@ class LineFollower:
 
     def normal_distribution(self,vel_min,sample_number=32):
         sigma = 1
-        mu = sample_number
+        mu = sample_number/2
         y_shift = vel_min
         sample_number = 32
         y=[]
