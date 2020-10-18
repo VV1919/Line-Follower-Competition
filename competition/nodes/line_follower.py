@@ -77,7 +77,7 @@ class LineFollower:
                     index = i
 
             # error = index - (image.width / 2)
-                
+            
 
 
 
