@@ -89,7 +89,6 @@ class LineFollower:
 
             # ENTER YOUR STEERING CODE HERE
             if self.sensor_row[index] == 0:
-
                 self.robot.rotate(self.prev_rot)
             else:
                 self.robot.rotate(self.rot_values[index])
