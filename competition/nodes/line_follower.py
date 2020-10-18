@@ -8,6 +8,7 @@ import numpy
 from rosrider_lib.rosrider import ROSRider
 
 from gazebo_msgs.srv import GetModelState
+
 from std_msgs.msg import String
 from geometry_msgs.msg import Twist
 from sensor_msgs.msg import Image
