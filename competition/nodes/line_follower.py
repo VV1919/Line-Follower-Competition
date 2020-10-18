@@ -80,7 +80,7 @@ class LineFollower:
             get_model_state = rospy.ServiceProxy('/gazebo/get_model_state', GetModelState)
             robot_state = get_model_state('robot1', None)
             self.position = robot_state.pose.position
-            print
+            print()
 
 
 
