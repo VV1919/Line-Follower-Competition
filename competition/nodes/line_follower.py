@@ -36,7 +36,7 @@ class LineFollower:
         rot_min_max = 2.457
         array_size=32
         self.rot_values = numpy.linspace(rot_min_max,-rot_min_max,array_size)
-        vel_max = 1.1
+        vel_max = 1.12
         vel_min = 0.73
         
         self.vel_values = numpy.append(numpy.linspace(vel_min,vel_max,16),numpy.linspace(vel_max,vel_min,16))
